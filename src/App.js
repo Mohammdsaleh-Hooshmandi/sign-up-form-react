@@ -1,9 +1,13 @@
-import './App.module.css';
+import classes from './App.module.css';
+import TextBox from './Components/Text/TextBox';
 
 const App = () => {
 	return (
-		<div>
-		</div>
+		<main>
+			<div className={classes.container}>
+				<TextBox />
+			</div>
+		</main>
 	);
 }
 

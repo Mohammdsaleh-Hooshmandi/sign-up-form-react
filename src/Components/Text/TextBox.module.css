@@ -1,0 +1,17 @@
+.wrapper {
+    width: 100%;
+}
+
+.title {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2.5rem;
+}
+
+.description {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+}

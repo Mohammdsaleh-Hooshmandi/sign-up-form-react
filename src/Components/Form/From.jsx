@@ -17,24 +17,36 @@ const Form = () => {
                 onSubmit={submitHandler}
             >
                 <Input
-                    type='text'
-                    name='firstName'
-                    placeholder='First Name'
+                    inputProps={{
+                        type:'text',
+                        name:'firstName',
+                        placeholder:'First Name'
+                    }}
+                    errorMessage='First Name cannot be emty'
                 />
                 <Input
-                    type='text'
-                    name='lastName'
-                    placeholder='Last Name'
+                    inputProps={{
+                        type:'text',
+                        name:'lastName',
+                        placeholder:'Last Name'
+                    }}
+                    errorMessage='Last Name cannot be emty'
                 />
                 <Input
-                    type='email'
-                    name='email'
-                    placeholder='Email Address'
+                    inputProps={{
+                        type:'email',
+                        name:'email',
+                        placeholder:'Email Address'
+                    }}
+                    errorMessage='Lookslike this is not an email'
                 />
                 <Input
-                    type='password'
-                    name='password'
-                    placeholder='Password'
+                    inputProps={{
+                        type:'password',
+                        name:'password',
+                        placeholder:'Password'
+                    }}
+                    errorMessage='Password cannot be emty'
                 />
 
                 <Button type='submit'>

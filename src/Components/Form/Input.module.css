@@ -1,3 +1,8 @@
+.wrapper {
+    height: 6.1rem;
+    position: relative;
+}
+
 .input {
     width: 100%;
     border: 1px solid #b9b6d3;
@@ -10,4 +15,23 @@
 
 .input:focus {
     border-color: #6055a5;
+}
+
+.invalid {
+    border-color: #ff7a7a;
+}
+
+.message {
+    display: block;
+    text-align: right;
+    color: #ff7a7a;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.wrapper img {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translateY(-50%);
 }

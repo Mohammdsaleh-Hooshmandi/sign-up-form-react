@@ -21,3 +21,9 @@
         font-size: 4.5rem;
     }
 }
+
+@media (max-width: 900px) {
+    .wrapper {
+        margin-top: 24rem;
+    }
+}

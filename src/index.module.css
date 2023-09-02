@@ -18,6 +18,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  html {
+    font-size: 58%;
+  }
   body {
     background-image: url('images/bg-intro-mobile.png');
   }

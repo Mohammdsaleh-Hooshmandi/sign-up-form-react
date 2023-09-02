@@ -13,4 +13,15 @@ main {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 8rem;
+    padding: 2rem;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 60rem;
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 4rem;
+        text-align: center;
+    }
 }

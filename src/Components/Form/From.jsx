@@ -1,6 +1,6 @@
 import classes from './Form.module.css';
-import Input from './Input';
-import Button from './Button';
+import Input from '../Common_UI/Input';
+import Button from '../Common_UI/Button';
 import FormHeader from './FormHeader';
 
 const Form = () => {

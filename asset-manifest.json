@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sign-up-form-react/static/css/main.56a56b0f.css",
+    "main.js": "/sign-up-form-react/static/js/main.09800101.js",
+    "static/media/bg-intro-desktop.png": "/sign-up-form-react/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "static/media/bg-intro-mobile.png": "/sign-up-form-react/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
+    "index.html": "/sign-up-form-react/index.html",
+    "static/media/icon-error.svg": "/sign-up-form-react/static/media/icon-error.b72f792e9c900128f5c88f10a0d8d4b7.svg",
+    "main.56a56b0f.css.map": "/sign-up-form-react/static/css/main.56a56b0f.css.map",
+    "main.09800101.js.map": "/sign-up-form-react/static/js/main.09800101.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a56b0f.css",
+    "static/js/main.09800101.js"
+  ]
+}
